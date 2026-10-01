@@ -30,8 +30,8 @@ You do **not** need to uninstall it. Create a clean environment for the course
 and install the course packages into it with pip:
 
 ```bash
-conda create -n aids python=3.12
-conda activate aids
+conda create -n bda python=3.12
+conda activate bda
 python -m pip install -r requirements.txt
 ```
 
@@ -219,6 +219,4 @@ fix Step 6 and reopen the notebook.
 **`pip install` fails behind a slow or filtered connection.** Retry once
 
 
-conda create -n spark312 python=3.12
-conda activate spark312
-pip install -r requirements.txt
+This work has been shown to student
