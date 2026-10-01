@@ -217,3 +217,8 @@ status bar.
 fix Step 6 and reopen the notebook.
 
 **`pip install` fails behind a slow or filtered connection.** Retry once
+
+
+conda create -n spark312 python=3.12
+conda activate spark312
+pip install -r requirements.txt
