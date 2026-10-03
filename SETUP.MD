@@ -1,9 +1,3 @@
-# Setting up your tools
-
-Do this **before** the Week 1 lab if you can. If anything fails, do not spend
-the evening fighting it: write the exact command and the full error message
-into `docs/readiness_note.md` and bring it to the lab. There is no penalty for
-a setup or platform problem.
 
 You need four things: Python, VS Code, two VS Code extensions, and Git.
 
@@ -15,7 +9,7 @@ You need four things: Python, VS Code, two VS Code extensions, and Git.
 route.**
 
 This course installs its packages with `pip` from `requirements.txt`, and
-creates a small virtual environment inside each week's project folder. That
+creates a small virtual environment inside eachs project folder. That
 keeps every student on identical package versions, keeps each week isolated,
 and keeps the download to a few tens of megabytes rather than several hundred.
 Mixing `conda` and `pip` in one environment is also the single most common
