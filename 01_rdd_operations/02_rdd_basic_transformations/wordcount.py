@@ -1,0 +1,7 @@
+dataRDD = sc.textFile("/mnt/data/wordcount.txt")
+dataRDD.collect()
+wordsRDD = dataRDD.flatMap(lambda line: line.split(" "))
+pairRDD = wordsRDD.map(lambda word: (word, 1))
+wordCountRDD = pairRDD.reduceByKey(lambda a, b: a + b)
+wordCountRDD.collect()
+wordCountRDD.sortByKey().collect()

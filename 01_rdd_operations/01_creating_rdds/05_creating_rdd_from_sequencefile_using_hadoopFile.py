@@ -9,6 +9,6 @@ rdd = sc.hadoopFile("/Users/mac/Downloads/BDA/01_rdd_operations/01_creating_rdds
                     "org.apache.hadoop.io.IntWritable")
 
  #Convert RDD to display as tuples
- result = rdd.map(lambda x: (x[0].toString(), int(x[1].get())))
+result = rdd.map(lambda x: (x[0], x[1]))
 
 print(result.collect())
