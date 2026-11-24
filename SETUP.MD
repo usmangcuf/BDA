@@ -3,6 +3,8 @@ You need four things: Python, VS Code, two VS Code extensions, and Git.
 
 ---
 
+
+
 ## Do I need Anaconda?
 
 **No. Anaconda is not required for this course, and it is not the recommended
